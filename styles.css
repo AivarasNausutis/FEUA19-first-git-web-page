@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  height: 180px;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h4 {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h3 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-thickness: 0.05rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.logo_wrapper{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/POL_COA_Kosciesza_I.svg/451px-POL_COA_Kosciesza_I.svg.png");
+  width: 100px;
+  height: 2rem;
+}
+
+.page_wrapper {
+  min-height: 100vh;
+  padding: 0 2rem;
+  background-color: whitesmoke;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.row_wrapper {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.image_banner {
+  height: 300px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_title {
+  background-color: rgba(255, 255, 255, 0.26);
+  padding: 0.5rem;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  border-radius: 20%;
+}
+
+.photo_1 {
+  background-image: url("https://pamatyklietuvoje.lt/api/TripObjectPhoto/getFile/2021-05-30_oqdsgw11owf_balninkai-7973.jpg/980/540/crop");
+}
+
+.photo_2 {
+  background-image: url("https://www.lrt.lt/img/2024/07/24/1823424-459735-1287x836.jpg");
+}
+
+.photo_3 {
+  background-image: url("https://img.ingridatours.lt/xcwI_AC2qBUZs47Gttir-IPoka611NeBCV70NKtcKL0/fill/0/600/ce/1/aHR0cHM6Ly93d3cuaW5ncmlkYXRvdXJzLmx0L3N0b3JhZ2UvdXBsb2Fkcy9ibG9nYXMvbW9sZXRhaS9tb2xldGFpJTIwZXRub2tvc21vbG9naWpvcy5qcGc.jpg");
+}
+
+.photo_4 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a9/88/59/labanoras-regional-park.jpg?w=1200&h=-1&s=1");
+}
+
+.photo_5 {
+  background-image: url("https://www.lietuvos.dvarai.lt/uploads/Products/product_23/01_1596090957.jpg");
+}
+
+.photo_6 {
+  background-image: url("https://kaltanenai.eu/wp-content/uploads/2024/10/463421883_1116352990494118_274734069466939582_n.jpg");
+}
